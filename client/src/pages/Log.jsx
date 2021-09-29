@@ -14,6 +14,8 @@ import LogBtn from "../components/LogBtn";
 import SetNap from "../components/SetNap";
 import SetEat from "../components/SetEat";
 
+// Adapt this log into an independent tool that can be easily modified and brought into other applications.
+
 export default function Log() {
   const [currentChild, setCurrentChild] = useState("Log");
   
